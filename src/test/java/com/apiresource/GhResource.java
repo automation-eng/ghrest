@@ -14,7 +14,7 @@ public class GhResource {
 	 
 	 public void setreadGitResource(String readGitResource) {
 		    System.out.println("::readGitResource:::::::");
-			this.readGitResource = "/repos/shabbi123/Andriod";
+				this.readGitResource = "/repos/automation-eng/ghrest";
 			
 			//sample:  repos/shabbi123/Andriod
 			
