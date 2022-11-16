@@ -28,13 +28,20 @@ public class GHTest {
 	@Given("check the given {string} in github")
 	public void check_the_given_in_github(String string) {
 	    System.out.println(":::::::check_the_given_in_github:::::");
-	    given().headers( "Authorization", "Bearer " + reuse.ghtoken, "Content-Type",
+	    System.out.println("::::::::::");
+	   /* given().headers( "Authorization", "Bearer " + reuse.ghtoken, "Content-Type",
 		           ContentType.JSON, "Accept",ContentType.JSON).
 		   when().get(reuse.apiresourc("read", string)).
-		   then().log().body().statusCode(200);
+		   then().log().body().statusCode(200);*/
+	   
 	}
 	@When("{string} does not exist")
 	public void does_not_exist(String string) {
+		
+		given().headers( "Authorization", "Bearer " + reuse.ghtoken, "Content-Type",
+		           ContentType.JSON, "Accept",ContentType.JSON).
+		   when().get(reuse.apiresourc("read", string)).
+		   then().log().body().statusCode(200);
 		System.out.println(":::::::does_not_exist:::::");
 	}
 	@Then("create the give {string}")
