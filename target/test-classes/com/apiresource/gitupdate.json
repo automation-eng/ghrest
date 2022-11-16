@@ -1,0 +1,9 @@
+{
+	"name": "Rest5",
+	"description": "This is Myfirst Rest5 updated repository",
+	"homepage": "https://google.com",
+	"private": true,
+	"has_issues": true,
+	"has_projects": true,
+	"has_wiki": true
+}

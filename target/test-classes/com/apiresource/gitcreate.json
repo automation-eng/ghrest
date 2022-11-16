@@ -1,0 +1,10 @@
+{
+    "name": "Rest5",
+	"description": "This is Myfirst Rest5 first repository",
+	"homepage": "https://github.com",
+	"private": false,
+	"has_issues": true,
+	"has_projects": true,
+	"has_wiki": true,
+    "allow_squash_merge" : true
+}
